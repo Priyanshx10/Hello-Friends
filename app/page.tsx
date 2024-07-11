@@ -16,7 +16,7 @@ export default function Home() {
       </h1>
 
       {user ? (
-        <h2>Welcome to the App as a logged in as User {user?.uid}</h2>
+        <h2>Welcome to the App as a logged in as User {user?.photoURL}</h2>
       ) : (
         <h2>You are not logged in</h2>
       )}
